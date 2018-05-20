@@ -1,0 +1,160 @@
+/***** BASE STYLES *****/
+
+@font-face {
+  font-family: 'Wisdom';
+  src: url('../fonts/wisdom.otf') format('opentype');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 50%;
+}
+
+.third-width {
+  float: left;
+  width: 33%;
+}
+
+/***** HEADER *****/
+
+h1 {
+  color: #77a466;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 23px;
+  margin: 0 auto;
+  padding: 38px 0;
+  text-transform: uppercase;
+}
+
+header span {
+  color: #000000;
+}
+
+nav {
+  float: right;
+  font-weight: 700;
+  margin: 0;
+  padding: 23px 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #77a466;
+  font-size: 14px;
+  line-height: 23px;
+  padding-left: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/***** TOP *****/
+
+img {
+  border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+}
+
+h2 {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+#top p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** BOTTOM *****/
+
+#bottom .full-width {
+    border-top: 1px solid #dedbdc;
+}
+
+h3 {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+#bottom a {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+#reviews {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+
+#reviews h3 {
+  padding-left: 20px;
+}
+
+#reviews p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+#contact h3 {
+  padding-left: 20px;
+}
+
+#contact p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 20px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  clear: both;
+}
+
+footer .full-width {
+  border-top: 1px solid #dedbdc;
+  text-transform: none;
+}
+
+footer p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer span {
+  color: #77a466;
+  font-family: 'Wisdom', cursive;
+  font-weight: 400;
+  text-transform: none;
+}
